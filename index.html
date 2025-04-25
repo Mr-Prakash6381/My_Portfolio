@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="text-gray-800 p-10 pb-0 dark:bg-lime-400">
+    <section id="home" class="bg-white p-5 rounded-2xl mb-10">
+      <div class="container mx-auto">
+        <div class="flex">
+          <a
+            href="#"
+            class="text-1xl lg:text-3xl font-bold pr-5 border-r border-purple-400"
+            >Protfolio</a
+          >
+          <button id="button" class="px-5 lg:hidden" onclick="button()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+          <ul class="hidden lg:flex my-auto font-bold text-gray-600">
+            <li class="pr-5">
+              <a
+                class="px-3 py-2 hover:border rounded-2xl border-purple-300"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="pr-5">
+              <a
+                class="px-3 py-2 hover:border rounded-2xl border-purple-300"
+                href="#Project"
+                >Project</a
+              >
+            </li>
+            <li class="pr-5">
+              <a
+                class="px-3 py-2 hover:border rounded-2xl border-purple-300"
+                href="#education"
+                >Education</a
+              >
+            </li>
+            <li class="pr-5">
+              <a
+                class="px-3 py-2 hover:border rounded-2xl border-purple-300"
+                href="#skills"
+                >Skills</a
+              >
+            </li>
+            <li class="pr-5">
+              <a
+                class="px-3 py-2 hover:border rounded-2xl border-purple-300"
+                href="#certificate"
+                >Certificate</a
+              >
+            </li>
+            <li class="pr-5">
+              <a
+                class="px-3 py-2 hover:border rounded-2xl border-purple-300"
+                href="#scoilLink"
+                >Socil Link</a
+              >
+            </li>
+            <li class="pr-5">
+              <a
+                class="px-3 py-2 hover:border rounded-2xl border-purple-300"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <ul
+          id="mobileMenu"
+          class="lg:hidden hidden my-auto font-bold text-gray-600"
+        >
+          <li class="my-3 mx-5">
+            <a
+              class="py-2 px-3 hover:border rounded-2xl border-purple-300"
+              href="#home"
+              >Home</a
+            >
+          </li>
+          <li class="my-3 mx-5">
+            <a
+              class="py-2 px-3 hover:border rounded-2xl border-purple-300"
+              href="#Project"
+              >Project</a
+            >
+          </li>
+          <li class="my-3 mx-5">
+            <a
+              class="py-2 px-3 hover:border rounded-2xl border-purple-300"
+              href="#education"
+              >Education</a
+            >
+          </li>
+          <li class="my-3 mx-5">
+            <a
+              class="py-2 px-3 hover:border rounded-2xl border-purple-300"
+              href="#skills"
+              >Skills</a
+            >
+          </li>
+          <li class="my-3 mx-5">
+            <a
+              class="py-2 px-3 hover:border rounded-2xl border-purple-300"
+              href="#certificate"
+              >Certificate</a
+            >
+          </li>
+          <li class="my-3 mx-5">
+            <a
+              class="py-2 px-3 hover:border rounded-2xl border-purple-300"
+              href="#skills-socilLink"
+              >Socil Link</a
+            >
+          </li>
+          <li class="my-3 mx-5">
+            <a
+              class="py-2 px-3 hover:border rounded-2xl border-purple-300"
+              href="#contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="flex py-8 lg:py-30">
+        <div class="w-full lg:w-1/2 2xl:mx-30 text-start lg:text-left">
+          <h1
+            class="text-3xl lg:text-5xl py-2 font-bold lg:font-semibold text-gray-700"
+          >
+            I am Prakash
+          </h1>
+          <h5 class="text-2xl lg:text-3xl pt-3">Web Developer</h5>
+          <h6 class="font-bold pt-3 lg:pt-6 text-2xl">About</h6>
+          <p class="pt-3 text-2xl">
+            Hello I'm studing M.sc Computer Secince at vels Universtie in
+            pallavaram Chennai. I have completed B.sc Computer Secince at Sri
+            Sankara Arts and Science Collage in Kanchpuram.
+          </p>
+          <h6 class="font-bold pt-6 text-2xl">Insterst</h6>
+          <p class="pt-3 text-2xl">
+            I allways like Desingn me chosie the Desingn Filled.<span
+              class="p-3"
+              >|</span
+            >Frontend Developer Filled
+          </p>
+        </div>
+        <div class="w-1/2 hidden lg:flex homeimg">
+          <img
+            class="img"
+            src="/My_Portfolio/image/7461489.jpg"
+            alt="image not found"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="Project" class="dark:bg-gray-800 rounded-2xl mb-10">
+      <div class="container mx-auto">
+        <div class="m-10">
+          <h1 class="text-4xl text-center font-bold pt-10 text-gray-200">
+            Project
+          </h1>
+        </div>
+        <div class="flex flex-wrap justify-center p-10 lg:p-30">
+          <div class="w-full xl:w-1/3 py-3 lg:p-5">
+            <div class="bg-white p-10 rounded-2xl shadow-lg">
+              <h3 class="text-2xl font-bold text-gray-600 pb-5">Navbar</h3>
+              <p class="text-2xl pb-5">
+                The side navbar page button click usign the animation left to
+                right movie
+              </p>
+              <button class="py-1 px-4 border-1 rounded-2xl">
+                <a
+                  href="https://responsivesidebarmenu.netlify.app/"
+                  target="_blank"
+                >
+                  Click me</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="w-full xl:w-1/3 py-3 lg:p-5">
+            <div class="bg-white p-10 rounded-2xl shadow-lg">
+              <h3 class="text-2xl font-bold text-gray-600 pb-5">
+                Bainer model
+              </h3>
+              <p class="text-2xl pb-5">
+                The bainer model hover the button link and animation in bainner
+                model
+              </p>
+              <button class="py-1 px-4 border-1 rounded-2xl">
+                <a href="https://bainer-model.netlify.app/" target="_blank"
+                  >Click me</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="w-full xl:w-1/3 py-3 lg:p-5">
+            <div class="bg-white p-10 rounded-2xl shadow-lg">
+              <h3 class="text-2xl font-bold text-gray-600 pb-5">Login page</h3>
+              <p class="text-2xl pb-5">
+                The login page login the user will can two input one name and
+                paswword buttion login
+              </p>
+              <button class="py-1 px-4 border-1 rounded-2xl">
+                <a
+                  href="https://effulgent-banoffee-13bd1e.netlify.app/"
+                  target="_blank"
+                  >Click me</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="education" class="bg-slate-300 rounded-2xl mb-10">
+      <div class="container mx-auto">
+        <h1 class="font-bold text-4xl text-center pt-5">Education</h1>
+        <div class="flex flex-wrap justify-center p-10 lg:p-10">
+          <div class="w-full xl:w-1/3 bg-white p-10 m-5 rounded-2xl">
+            <h1 class="text-2xl font-bold text-gray-600 pb-5">
+              Master of Computer Science
+            </h1>
+            <p class="text-2xl pb-5">
+              I'm currently studing
+              <span class="font-bold">M.Sc Computer Science</span> at Vels
+              University in pallavarm-600 117
+            </p>
+            <h6>CGPA: 8.4% (Upto First Seem)</h6>
+          </div>
+          <div class="w-ful xl:w-1/3 bg-white p-10 m-5 rounded-2xl">
+            <h1 class="text-2xl font-bold text-gray-600 pb-5">
+              Bachelor of Computer Science
+            </h1>
+            <p class="text-2xl pb-5">
+              I completed
+              <span class="font-bold">B.Sc Computer Science</span> at Sri
+              Sankara Arts and Science College in Kanchipuram-631 561
+            </p>
+            <h6>CGPA: 6.7%</h6>
+          </div>
+          <div class="w-ful xl:w-1/3 bg-white p-10 m-5 rounded-2xl">
+            <h1 class="text-2xl font-bold text-gray-600 pb-5">
+              Higher Secondary School
+            </h1>
+            <p class="text-2xl pb-5">
+              The Government Higher Secondary School I completed
+              <span class="font-bold">Higer Secondary </span> in Mamandur-631
+              702
+            </p>
+            <h6>Total marks : 421</h6>
+          </div>
+          <div class="w-ful xl:w-1/3 bg-white p-10 m-5 rounded-2xl">
+            <h1 class="text-2xl font-bold text-gray-600 pb-5">
+              Secondary School
+            </h1>
+            <p class="text-2xl pb-5">
+              The same Government Higher Secondary School I completed
+              <span class="font-bold">Secondary </span>in Mamandur-631 702
+            </p>
+            <h6>Total marks : 285</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills-socilLink" class="rounded-2xl mb-10">
+      <div class="container mx-auto">
+        <div class="flex flex-wrap">
+          <div
+            id="skills"
+            class="w-full lg:w-1/2 bg-purple-300 rounded-2xl pb-5"
+          >
+            <h1 class="font-bold text-4xl text-center pt-10">Skills</h1>
+            <div
+              class="boxicon flex items-center flex-wrap flex-col lg:py-20 py-5"
+            >
+              <div class="boxicon1">
+                <i class="fa-brands fa-html5 py-5 text-3xl pr-5"></i
+                ><span class="pr-40 text-blue-800">HTML</span>100%
+              </div>
+              <div class="boxicon2">
+                <i class="fa-brands fa-css py-5 text-3xl pr-5"></i
+                ><span class="pr-40 text-red-800">CSS</span>90%
+              </div>
+              <div class="boxicon3">
+                <i class="fa-brands fa-js py-5 text-3xl pr-5"></i
+                ><span class="pr-25 text-sky-900">JAVASCRIPT</span>85%
+              </div>
+              <div class="boxicon4">
+                <i class="fa-brands fa-bootstrap py-5 text-3xl pr-5"></i
+                ><span class="pr-30 text-orange-600">BOOSTRAP</span>95%
+              </div>
+              <div class="boxicon5">
+                <i class="fa-brands fa-react py-5 text-3xl pr-5"></i
+                ><span class="pr-35 text-lime-900">REACT</span>70%
+              </div>
+              <div class="boxicon6">
+                <i class="fa-brands fa-python py-5 text-3xl pr-5"></i
+                ><span class="pr-28">Python</span>85%
+              </div>
+            </div>
+          </div>
+          <div
+            id="scoilLink"
+            class="w-full lg:w-1/2 bg-stone-300 flex items-center flex-col rounded-2xl"
+          >
+            <h1 class="font-bold text-4xl text-center pt-10">Socil Link</h1>
+            <div
+              class="flex justify-center flex-col items-center lg:py-30 py-10"
+            >
+              <div>
+                <i class="fa-brands fa-github py-5 text-3xl pr-5"></i
+                ><a href="https://github.com/Mr-Prakash6381" target="_blank"
+                  >GITHUB</a
+                >
+              </div>
+              <div>
+                <i class="fa-brands fa-linkedin py-5 text-3xl pr-5"></i
+                ><a
+                  href="https://www.linkedin.com/in/prakash-t-9929792b5/"
+                  target="_blank"
+                  >LINKEDIN</a
+                >
+              </div>
+              <div>
+                <i class="fa-brands fa-facebook py-5 text-3xl pr-5"></i
+                ><a href="https://www.facebook.com/" target="_blank"
+                  >FACEBOOK</a
+                >
+              </div>
+              <div>
+                <i class="fa-brands fa-instagram py-5 text-3xl pr-5"></i
+                ><a
+                  href="https://www.instagram.com/mr_prakash__13/"
+                  target="_blank"
+                  >INSTAGRAM</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="certificate" class="rounded-2xl mb-10 bg-slate-500">
+      <div class="container mx-auto">
+        <h3
+          class="text-center text-2xl lg:text-4xl text-black font-bold pt-2 lg:pt-5"
+        >
+          Certificate
+        </h3>
+        <div
+          class="flex flex-col text-white px-5 pt-5 lg:flex-row text-start lg:py-30"
+        >
+          <div
+            class="flex flex-col text-2xl lg:border rounded-2xl lg:m-5 lg:p-5"
+          >
+            <h2 class="lg:text-3xl py-2 text-green-500">
+              Computer Software College <span class="text-black">(CSC)</span>
+            </h2>
+            <p class="lg:text-2xl">
+              Course : Honours Diploma in Computer Application
+              <span class="text-black">(HDCA)</span>
+            </p>
+            <p>Issued by : Csc Institue</p>
+            <p>
+              View Certificate :
+              <a
+                href="https://drive.google.com/file/d/15wDkPNBXhwymcbzBH6w0a83E22yuQPVV/view?usp=sharing"
+                target="_blank"
+                class="text-red-300"
+                >Click</a
+              >
+            </p>
+          </div>
+          <div class="flex flex-col py-5 text-2xl lg:flex-row">
+            <div
+              class="flex flex-col py-5 lg:border rounded-2xl lg:px-5 lg:mr-5"
+            >
+              <p class="text-green-500 py-2">Typewriting English Senior</p>
+              <p>First Class August-2022</p>
+              <p>
+                View certificate :
+                <a
+                  href="https://drive.google.com/file/d/15uQTlVNASTVZquqj7UbuN_M2UjcQVWim/view?usp=sharing"
+                  target="_blank"
+                  class="dark:text-lime-300"
+                  >Click</a
+                >
+              </p>
+            </div>
+            <div class="flex flex-col py-5 lg:border rounded-2xl lg:px-5">
+              <h2 class="text-green-500 py-2">Typewriting Tamil Senior</h2>
+              <p>First Class November-2023</p>
+              <p>
+                View certificate :
+                <a
+                  href="https://drive.google.com/file/d/15voNdkwPVl8V5A4r6PJnQJCtX8VKPKAz/view?usp=sharing"
+                  target="_blank"
+                  class="dark:text-lime-300"
+                  >Click</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </section>
+    <footer id="contact" class="w-full bg-neutral-800 rounded-2xl">
+      <div>
+        <h1 class="font-bold text-2xl text-center pt-5 lg:pt-15 text-green-700">
+          Contact
+        </h1>
+        <div
+          class="p-10 mx-auto lg:p-20 flex flex-col flex-wrap justify-center items-center"
+        >
+          <div class="flex">
+            <p class="pr-5 pb-5 text-2xl text-white">Whatapp :</p>
+            <a
+              class="text-2xl text-blue-700"
+              href="https://wa.me/6381094976 "
+              target="_blank"
+              >Click Me</a
+            >
+          </div>
+          <p class="pb-5 lg:text-2xl text-white">Contact Number : 6381094976</p>
+          <p class="lg:text-2xl text-white">
+            Mail Id : prakash875478@gmail.com
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./javascript.js"></script>
+  </body>
+</html>
