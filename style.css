@@ -1,0 +1,105 @@
+/*----------Bainer Image------------*/
+.img {
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+/*-----------------Sills--------------------------*/
+.boxicon1 {
+    position: relative;
+    width: 300px;
+}
+
+.boxicon1 span::after {
+    content: '';
+    background: linear-gradient(250deg, rgb(1, 113, 150), darkviolet, rgb(83, 83, 216));
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.boxicon2 {
+    position: relative;
+    width: 300px;
+}
+
+.boxicon2 span::after {
+    content: '';
+    background: linear-gradient(243deg, #c923df, #d49e14, #18cce4, #16d10f, #0c86b6);
+    height: 4px;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.boxicon3 {
+    position: relative;
+    width: 300px;
+}
+
+.boxicon3 span::after {
+    content: '';
+    background: linear-gradient(243deg, #cc3027, #4b8b92, #01150b);
+    height: 4px;
+    width: 85%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.boxicon4 {
+    position: relative;
+    width: 300px;
+}
+
+.boxicon4 span::after {
+    content: '';
+    background: linear-gradient(243deg, #cc3027, #4b8b92, #01150b);
+    height: 4px;
+    width: 95%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.boxicon5 {
+    position: relative;
+    width: 300px;
+}
+
+.boxicon5 span::after {
+    content: '';
+    background: linear-gradient(243deg, #cc27b0, #4b8b92, #f30303);
+    height: 4px;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.boxicon6 {
+    position: relative;
+    width: 300px;
+}
+
+.boxicon6 span::after {
+    content: '';
+    background: linear-gradient(243deg, #850700fb, #4b8b92, #73991a);
+    height: 4px;
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
